@@ -14,7 +14,7 @@ class GameViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let myScene = MainScene(size:CGSize(width: 2048.0, height: 1536.0))
+        let myScene = MainScene(size:CGSize(width: 1536.0, height: 2048.0))
         
         let myView = self.view as! SKView
         myView.showsFPS = false;
