@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC23EA301C8B34B200EDA061 /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = EC23EA2F1C8B34B200EDA061 /* Readme.md */; };
+		EC23EA321C8B34F100EDA061 /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = EC23EA311C8B34F100EDA061 /* License.txt */; };
 		EC562F051C88C1DE004892A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC562F041C88C1DE004892A1 /* AppDelegate.swift */; };
 		EC562F0B1C88C1DE004892A1 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC562F0A1C88C1DE004892A1 /* GameViewController.swift */; };
 		EC562F0E1C88C1DE004892A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC562F0C1C88C1DE004892A1 /* Main.storyboard */; };
 		EC562F101C88C1DE004892A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC562F0F1C88C1DE004892A1 /* Assets.xcassets */; };
 		EC562F131C88C1DE004892A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC562F111C88C1DE004892A1 /* LaunchScreen.storyboard */; };
 		EC562F1B1C88CFE6004892A1 /* MainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC562F1A1C88CFE6004892A1 /* MainScene.swift */; };
-		ECA18F621C8B169C003F5718 /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = ECA18F611C8B169C003F5718 /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC23EA2F1C8B34B200EDA061 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		EC23EA311C8B34F100EDA061 /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
 		EC562F011C88C1DE004892A1 /* Quick2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quick2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC562F041C88C1DE004892A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC562F0A1C88C1DE004892A1 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +28,6 @@
 		EC562F121C88C1DE004892A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC562F141C88C1DE004892A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC562F1A1C88CFE6004892A1 /* MainScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScene.swift; sourceTree = "<group>"; };
-		ECA18F611C8B169C003F5718 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,8 @@
 		EC562EF81C88C1DE004892A1 = {
 			isa = PBXGroup;
 			children = (
+				EC23EA311C8B34F100EDA061 /* License.txt */,
+				EC23EA2F1C8B34B200EDA061 /* Readme.md */,
 				EC562F031C88C1DE004892A1 /* Quick2 */,
 				EC562F021C88C1DE004892A1 /* Products */,
 			);
@@ -65,7 +69,6 @@
 				EC562F111C88C1DE004892A1 /* LaunchScreen.storyboard */,
 				EC562F141C88C1DE004892A1 /* Info.plist */,
 				EC562F1A1C88CFE6004892A1 /* MainScene.swift */,
-				ECA18F611C8B169C003F5718 /* Readme.md */,
 			);
 			path = Quick2;
 			sourceTree = "<group>";
@@ -129,6 +132,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC23EA321C8B34F100EDA061 /* License.txt in Resources */,
 				EC562F131C88C1DE004892A1 /* LaunchScreen.storyboard in Resources */,
 				EC562F101C88C1DE004892A1 /* Assets.xcassets in Resources */,
 				EC562F0E1C88C1DE004892A1 /* Main.storyboard in Resources */,
@@ -144,7 +148,7 @@
 			files = (
 				EC562F1B1C88CFE6004892A1 /* MainScene.swift in Sources */,
 				EC562F0B1C88C1DE004892A1 /* GameViewController.swift in Sources */,
-				ECA18F621C8B169C003F5718 /* Readme.md in Sources */,
+				EC23EA301C8B34B200EDA061 /* Readme.md in Sources */,
 				EC562F051C88C1DE004892A1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
