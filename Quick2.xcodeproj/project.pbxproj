@@ -13,6 +13,7 @@
 		EC562F101C88C1DE004892A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC562F0F1C88C1DE004892A1 /* Assets.xcassets */; };
 		EC562F131C88C1DE004892A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC562F111C88C1DE004892A1 /* LaunchScreen.storyboard */; };
 		EC562F1B1C88CFE6004892A1 /* MainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC562F1A1C88CFE6004892A1 /* MainScene.swift */; };
+		ECA18F621C8B169C003F5718 /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = ECA18F611C8B169C003F5718 /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EC562F121C88C1DE004892A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC562F141C88C1DE004892A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC562F1A1C88CFE6004892A1 /* MainScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScene.swift; sourceTree = "<group>"; };
+		ECA18F611C8B169C003F5718 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				EC562F111C88C1DE004892A1 /* LaunchScreen.storyboard */,
 				EC562F141C88C1DE004892A1 /* Info.plist */,
 				EC562F1A1C88CFE6004892A1 /* MainScene.swift */,
+				ECA18F611C8B169C003F5718 /* Readme.md */,
 			);
 			path = Quick2;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			files = (
 				EC562F1B1C88CFE6004892A1 /* MainScene.swift in Sources */,
 				EC562F0B1C88C1DE004892A1 /* GameViewController.swift in Sources */,
+				ECA18F621C8B169C003F5718 /* Readme.md in Sources */,
 				EC562F051C88C1DE004892A1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +297,7 @@
 				EC562F191C88C1DE004892A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
