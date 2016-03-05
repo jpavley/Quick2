@@ -3,7 +3,7 @@
 //  Quick2
 //
 //  Created by Pavley, John on 3/3/16.
-//  Copyright © 2016 Epic Loot. All rights reserved.
+//  Copyright © 2016 John Pavley. MIT License.
 //
 
 import UIKit
